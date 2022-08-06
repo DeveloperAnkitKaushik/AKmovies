@@ -1,6 +1,6 @@
 import React,{useRef} from 'react';
 import { CssBaseline } from '@mui/material';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes,Navigate } from 'react-router-dom';
 import { Actors, MovieInformation, Profile, Navbar, Movies } from "./";
 import useStyles from "./styles";
 import useAlanAI from './AlanAI';
@@ -21,6 +21,7 @@ const App = () => {
           <Route exact path="/Actor/:id" element={<Actors />} />
           <Route exact path="/Movie/:id" element={<MovieInformation />} />
           <Route exact path="/Profile/:id" element={<Profile />} />
+          <Route path="*" element= {<Navigate to="/" replace />} />
         </Routes>
       </main>
       <div ref={alanBtnContainer}/>

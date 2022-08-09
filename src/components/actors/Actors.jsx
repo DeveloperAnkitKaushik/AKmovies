@@ -51,7 +51,7 @@ const Actors = () => {
                     </Box>
                 </Grid>
             </Grid>
-            <Box margin="2rem" width="100%">
+            <Box margin="2rem 0">
                 <Typography variant="h2" align="center" gutterBottom>Movies</Typography>
                 {isActorsMovieFetching ? <Box display="flex" justifyContent="center" alignItems="center" height='20rem'>
                     <CircularProgress size="4rem" />

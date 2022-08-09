@@ -36,7 +36,7 @@ function useAlan() {
           fetchToken();
         } else if (command === 'logout') {
           localStorage.clear();
-          navigate('/');
+          window.location.reload();
         } else if (command === 'search') {
           dispatch(searchMovie(query));
         }

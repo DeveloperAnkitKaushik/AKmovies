@@ -12,6 +12,6 @@ This application includes user authentication, dark mode, sort movie on the basi
 
 Alan works as in-app voice assistant which create conversational experiences for filmpire.
 
-Website Link - https://akmovies.netlify.app
+Website Link - https://akmovies-ak.web.app/
 
 Developed by Ankit Kaushik! Enjoy! :D
